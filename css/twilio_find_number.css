@@ -1,0 +1,209 @@
+
+.phone_number_search_area_code,
+.phone_number_search_phone{
+    float:none;
+    display:inline-block;
+}
+
+.phone_number_search_area_code:focus,
+.phone_number_search_phone:focus{
+border:0px solid #CBE86B !important;
+}
+
+
+.phone_number_search input{
+border:0px;
+margin:0px;
+padding:0px;
+height:34px;
+font-size:18px;
+}
+
+.phone_number_search input[readonly]{
+    background:#fff;
+}
+#wp_phone_holder label{
+    font-weight:bold;
+
+}
+
+#wp_phone_holder{
+    background:#fff;
+    border:1px solid #ddd;
+    padding:10px;
+    width:620px;
+    
+
+}
+
+.wp_phone_form_table input[type="text"],
+.wp_phone_form_table input[type="password"]
+{
+height:34px;
+font-size:18px;
+width:280px;
+}
+
+.wp_phone_form_table .no-pad td{
+}
+
+.wp_phone_form_table .no-pad{
+margin:0px;
+padding:0px;
+}
+
+ #wp_phone_holder .phone_number_search, .wp_phone_form_phone input[type="text"]{
+background: #fcfcfc;
+border: 1px solid #ddd5ce;
+font-size: 18px ;
+height:34px;
+line-height:34px;
+background-color: #fff;
+border: 1px solid #ccc;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border linear .2s,box-shadow linear .2s;
+-moz-transition: border linear .2s,box-shadow linear .2s;
+-o-transition: border linear .2s,box-shadow linear .2s;
+transition: border linear .2s,box-shadow linear .2s;
+margin:0px;
+padding:0px;
+position:relative;
+width:auto;
+font-weight:bold;
+vertical-align: top;
+padding-bottom:2px;
+padding-left:2px;
+}
+
+.phone_number_search_area_code{
+    width:40px !important;
+    display:inline-block;
+    margin:0px !important;
+    box-shadow:none !important;
+}
+
+.phone_number_search_phone{
+margin-left:6px !important;
+width:140px !important;
+display:inline-block;
+box-shadow:none !important;
+
+}
+.phone_number_drop_down{
+border:1px solid #ccc;
+position:absolute;
+background:#fff;
+z-index:200;
+max-height:400px;
+overflow-y:scroll;
+
+}
+
+.phone_number_drop_down li div{
+display:inline-block;
+}
+.phone_number_drop_down li{
+padding:10px;
+border-bottom:1px dotted #ddd;
+cursor:pointer;
+}
+
+.phone_number_drop_down li:hover{
+background:#dfdfdf;
+
+}
+#register_form label{
+margin-top:15px;
+}
+.country_flag_dropdown{
+width:36px !important;
+height:38px !important;
+padding-left:36px !important;
+}
+
+
+.selected-flag{
+margin:0px !important;
+padding:10px !important;
+padding-right:20px !important;
+padding-bottom:12px !important;
+}
+.intl-tel-input{
+width:28px;
+}
+.country-list{
+z-index:90000 !important;
+}
+.twilio_find_number{
+vertical-align:top !important;
+}
+.country_flag_dropdown.c_flag_smaller{
+height:34px !important;
+}
+
+.intl-tel-input span{
+    display:inline !important;
+}
+
+.phone_image_loader{
+position:absolute;
+right:5px;
+top:10px;
+}
+.wp_phone_default_number_shortcode{
+display:block;
+width:100%;
+text-align:left;
+font-family:"Courier New", Courier, monospace;
+height:26px;
+line-height:26px;
+font-size:12px;
+background:#fcfcfc;
+}
+.wp_phone_big{
+font-size:22px;
+
+}
+.error_holder .errors,
+.error_holder_sync .errors
+{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 10px;
+    display:block;
+    background-repeat: no-repeat;
+    color: #D8000C;
+    background-color: #FFBABA;
+
+}
+#wp_register_form label{
+display:block;
+}
+ .wp_phone_button_left_input{
+        width:30px;
+        position:relative;
+        left:3px;
+        padding-top:4px;
+    } 
+
+
+.first_time_notice
+{
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 10px;
+    width:620px;
+}
+.phone_image_loader{
+height:16px;
+width:16px;
+background:url('../images/loader10.gif');
+display:none;
+}
